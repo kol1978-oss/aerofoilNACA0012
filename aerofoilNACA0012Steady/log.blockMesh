@@ -1,0 +1,133 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-0b487fc98b88
+Exec   : blockMesh
+Date   : May 14 2026
+Time   : 13:52:04
+Host   : "kol-serv"
+PID    : 6146
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Expanding #calc at line 19 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Creating new library in "dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/platforms/linux64GccDPInt64Opt/lib/libcodeStream_b5efd560b2ceecc20b61f872706c4b2b70629a17.so"
+"/home/kol/OpenFOAM/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17"
+wmake libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_b5efd560b2ceecc20b61f872706c4b2b70629a17.so
+Expanding #calc at line 22 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Creating new library in "dynamicCode/_5a8fc60f4baec9918e813dd9cf067b730229beca/platforms/linux64GccDPInt64Opt/lib/libcodeStream_5a8fc60f4baec9918e813dd9cf067b730229beca.so"
+"/home/kol/OpenFOAM/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5a8fc60f4baec9918e813dd9cf067b730229beca/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5a8fc60f4baec9918e813dd9cf067b730229beca"
+wmake libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5a8fc60f4baec9918e813dd9cf067b730229beca
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5a8fc60f4baec9918e813dd9cf067b730229beca/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_5a8fc60f4baec9918e813dd9cf067b730229beca.so
+Expanding #calc at line 23 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Creating new library in "dynamicCode/_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202/platforms/linux64GccDPInt64Opt/lib/libcodeStream_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202.so"
+"/home/kol/OpenFOAM/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202"
+wmake libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_5f9b39e3c8fef32ab136c3a3b07d5ee6d8327202.so
+Expanding #calc at line 25 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Creating new library in "dynamicCode/_efcac0516338396570009065847b6044af2645d5/platforms/linux64GccDPInt64Opt/lib/libcodeStream_efcac0516338396570009065847b6044af2645d5.so"
+"/home/kol/OpenFOAM/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_efcac0516338396570009065847b6044af2645d5/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_efcac0516338396570009065847b6044af2645d5"
+wmake libso /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_efcac0516338396570009065847b6044af2645d5
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/dynamicCode/_efcac0516338396570009065847b6044af2645d5/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_efcac0516338396570009065847b6044af2645d5.so
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 6
+		Number of boundary faces : 24
+		Number of defined boundary faces : 24
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.02732510875 .. 0.0001366256022 0.02732510875 .. 0.0001366256022 0.02733405002 .. 0.0001506767865 0.02733405002 .. 0.0001506767865 
+        j : 0.2
+        k : 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 
+    Block 1 cell size :
+        i : 0.02812276213 .. 0.02812275944
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 
+    Block 2 cell size :
+        i : 0.02854912738 .. 11.41965095
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626
+    Block 3 cell size :
+        i : 0.02732510875 .. 0.0001366256022 0.02732510875 .. 0.0001366256022 0.02733405002 .. 0.0001506767865 0.02733405002 .. 0.0001506767865 
+        j : 0.2
+        k : 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 
+    Block 4 cell size :
+        i : 0.02812276213 .. 0.02812275944
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 
+    Block 5 cell size :
+        i : 0.02854912738 .. 11.41965095
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626
+
+No patch pairs to merge
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-49.7 -0.1 -50) (100 0.1 50)
+  nPoints: 32960
+  nCells: 16200
+  nFaces: 65080
+  nInternalFaces: 32120
+----------------
+Patches
+----------------
+  patch 0 (start: 32120 size: 170) name: aerofoil
+  patch 1 (start: 32290 size: 270) name: inlet
+  patch 2 (start: 32560 size: 120) name: outlet
+  patch 3 (start: 32680 size: 16200) name: back
+  patch 4 (start: 48880 size: 16200) name: front
+
+End
+

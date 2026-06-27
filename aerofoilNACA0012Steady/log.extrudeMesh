@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-0b487fc98b88
+Exec   : extrudeMesh
+Date   : May 14 2026
+Time   : 13:52:20
+Host   : "kol-serv"
+PID    : 6893
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Expanding #calc at line 19 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 22 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 23 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 25 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Reading "extrudeMeshDict"
+
+Selecting extrudeModel plane
+Extruding from patch using model plane
+Collapsing edges < 0.0001 of bounding box
+
+Extruding patches 1(back) on mesh "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady"
+
+Expanding #calc at line 19 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 22 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 23 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Expanding #calc at line 25 in file "/home/kol/OpenFOAM/kol-12/run/aerofoilNACA0012Steady/system/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Mesh bounding box : (-49.7 -1 -50) (100 0 50)
+        with span : (149.7 1 100)
+Merge distance    : 0.0001
+
+Collapsing edges < 0.0001 ...
+
+            Uncollapsed edges = 0 / 81840
+    Number of points : 32960
+    Not visited      : 0
+    Not collapsed    : 32960
+    Collapsed        : 0
+
+Collapsing 0 cells
+Writing mesh to "constant/region0"
+
+End
+
